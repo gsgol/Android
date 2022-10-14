@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="apply">Применить</string>
+
+    <string name="activityMainStartSecond">Задать ФИО и адрес сайта</string>
+    <string name="activityMainShowToast">Вывести ФИО через Toast</string>
+    <string name="activityMainStartBrowser">Открыть адрес сайта в браузере</string>
+    <string name="activitySecondEditScndname">Фамилия</string>
+    <string name="activitySecondEditTextFstname">Имя</string>
+    <string name="activitySecondEditTextTrdname">Отчество</string>
+    <string name="activitySecondEditTextAddress">Адрес сайта</string>
+    <string name="activitySecondTextViewInstructions">Введите ФИО и адрес сайта в поля выше</string>
+    <string name="activityMainTextViewWelcome">Добро пожаловать!</string>
+    <string name="MsgNotSpecifiedAddress">Для начала укажите адрес сайта</string>
+    <string name="MsgIncorrectAddress">Адрес указан неверно\nУбедитесь в наличии \"http(s)\" и \"://\"</string>
+    <string name="MsgNotSpecifiedName">Для начала укажите ФИО</string>
+</resources>

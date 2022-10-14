@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="100">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="80"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/activitySecondEditTextScndname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activitySecondEditScndname" />
+
+        <EditText
+            android:id="@+id/activitySecondEditTextFstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activitySecondEditTextFstname" />
+
+        <EditText
+            android:id="@+id/activitySecondEditTextTrdname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activitySecondEditTextTrdname" />
+
+        <EditText
+            android:id="@+id/activitySlaveEditTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activitySecondEditTextAddress" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <TextView
+            android:id="@+id/activitySecondTextViewStringFromMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activitySecondTextViewInstructions" />
+
+        <Button
+            android:id="@+id/activitySlaveBtnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply" />
+
+    </LinearLayout>
+</LinearLayout>
